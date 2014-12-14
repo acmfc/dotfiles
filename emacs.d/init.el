@@ -52,12 +52,7 @@
 (column-number-mode 1)
 (global-linum-mode 0)
 
-;(setq backup-directory-alist
-;      `(("." . ,(expand-file-name
-;		 (concat user-emacs-directory "backups")))))
-
-;(setq backup-directory-alist `(("." . "~/.emacs.d/backups")))
-(setq backup-directory-alist `(("." .(concat user-emacs-directory "backups"))))
+(setq backup-directory-alist `(("." . ,(expand-file-name (concat user-emacs-directory "backups")))))
 
 (setq vc-make-backup-files t)
 
