@@ -1,3 +1,5 @@
+let mapleader=" "
+
 execute pathogen#infect()
 
 set tags=./tags;/
@@ -8,7 +10,7 @@ set history=1000
 
 set hlsearch
 set incsearch
-"set ignorecase
+set ignorecase
 set smartcase
 
 set mouse=a
@@ -25,8 +27,6 @@ set wildignore=*.o,*.obj
 set backspace=indent,eol,start
 
 "set noesckeys
-
-let mapleader=" "
 
 """"""""""""""""""""""""""""""
 " Misc mappings
