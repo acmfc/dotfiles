@@ -1,0 +1,19 @@
+clear mod1
+clear control
+clear lock
+
+! escape key
+keycode 9 = Alt_L
+keycode 135 = Alt_R
+
+! right alt key
+keycode 108 = Hyper_R
+
+! left alt key
+keycode 64 = Hyper_R
+
+add control = Control_L Caps_Lock Control_R Hyper_R
+add mod1 = Alt_L Meta_L Alt_R
+
+keycode any = Escape
+! Then run xcape -e "Hyper_R=Escape"
